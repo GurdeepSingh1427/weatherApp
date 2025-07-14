@@ -27,3 +27,5 @@ export const hours = [
 ];
 
 export const weeks = ["week 1", "week 2"];
+export const citycardclass = "citycardclass";
+export const inputcardclass = "inputcardclass";

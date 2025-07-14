@@ -1,21 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Weatherapp from './Weatherapp'
-import InputSearch from './InputSearch'
-
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Weatherapp from "./Weatherapp";
+import InputSearch from "./InputSearch";
+import SwitchLabels from "./Toggle";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div className='parentdiv'>
+    <div className="parentdiv">
       <Weatherapp />
       <InputSearch />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

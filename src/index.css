@@ -47,6 +47,7 @@
   background-color: #2a2f34;
   border-radius: 5px;
   box-shadow: 0 0 10px 5px #404044;
+  width: 430px;
 }
 .inputfield {
   position: relative;
@@ -61,14 +62,15 @@
 .list {
   font-size: medium;
   position: absolute;
-  left: 53%;
-  top: 20%;
+  left: 54%;
+  top: 61%;
   background-color: rgb(131, 130, 137);
   list-style: none;
   width: 100px;
   border-color: #242424;
   border-radius: 5%;
   color: #380550;
+  z-index: 10;
 }
 
 .list:hover {
@@ -86,13 +88,14 @@
 }
 
 .percity {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 10px;
   border-style: groove;
   border-width: 1px;
   border-color: #181717;
-  height: 140px;
+  height: 300px;
   box-shadow: 0 0 10px 5px #4e4e4f;
   text-shadow: #4b5682;
   width: 200px;
@@ -105,15 +108,10 @@
 }
 
 .delete-button {
-  width: 50%;
-  margin-top: 15px;
-  margin-left: 50px;
-  height: 30px;
-  background-color: #8d8c91;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 2px #464649;
-  text-shadow: #4b5682;
-  color: #1e1d1d;
+  position: absolute;
+  width: 10%;
+  top: 2%;
+  right: 2%;
 }
 
 .delete-button:hover {
@@ -131,21 +129,22 @@
 .timetype {
   font-size: medium;
   position: absolute;
-  left: 39%;
-  top: 31%;
+  left: 40%;
+  top: 97%;
   background-color: rgb(131, 130, 137);
   list-style: none;
-  width: 100px;
+  width: 70px;
   border-color: #242424;
   border-radius: 5%;
   color: #380550;
+  cursor: pointer;
 }
 
 .time {
   font-size: medium;
   position: absolute;
-  left: 53%;
-  top: 31%;
+  left: 55%;
+  top: 97%;
   background-color: rgb(131, 130, 137);
   list-style: none;
   width: 100px;
@@ -154,4 +153,32 @@
   color: #380550;
   height: 100px;
   overflow-y: scroll;
+}
+
+.inputcontainer {
+  position: relative;
+}
+
+.cityname {
+  position: absolute;
+  top: 15%;
+}
+
+.citytemp {
+  position: absolute;
+  top: 40%;
+}
+
+.inputcardclass {
+  background-color: #380550;
+}
+
+.citytoggle {
+  position: absolute;
+  bottom: 2%;
+}
+
+.undercitycard {
+  position: relative;
+  right: 1%;
 }
